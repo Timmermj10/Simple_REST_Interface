@@ -2,7 +2,9 @@ Explanation of work:
 
 location.py uses urllib and json to request and parse the information returned from API requests to ipstack, returning the information as a json object that can be used in an auxiliary CLI tool.
 
-Other people would use this CLI tool to get information on latitude and longitude values based on a given IP address. This is done by calling 'python location.py {IP ADDRESS}' (note that on some machines you must specify python3, py, py3, etc)
+Other people would use this CLI tool to get information on latitude and longitude values based on a given IP address. This is done by calling 'python location.py {IP ADDRESS}' from the command line (note that on some machines you must specify python3, py, py3, etc)
+
+Note: when cloning this repository you will not receive the apikey.py file, you must create this file yourself and add the variable access_key = '{your_access_key}' to run the program.
 
 Security:
 
